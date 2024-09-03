@@ -1,0 +1,324 @@
+[
+  {
+    "description": "  Everybody wants to know their baggage allowance",
+    "elements": [
+      {
+        "description": "",
+        "id": "baggage-allowance;guest-is-checking-their-baggage-allowance",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Guest is checking their baggage allowance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "guest is a \"Beyond\" member",
+            "match": {
+              "location": "features/step_definitions/baggage_allowance_steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1063127
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "guest has a \"LT\" fare",
+            "match": {
+              "location": "features/step_definitions/baggage_allowance_steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 352741
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "guest should be told \"Carry-On Only\"",
+            "match": {
+              "location": "features/step_definitions/baggage_allowance_steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "baggage-allowance;guest-is-checking-their-baggage-allowance",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Guest is checking their baggage allowance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "guest is a \"Gold\" member",
+            "match": {
+              "location": "features/step_definitions/baggage_allowance_steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91691
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "guest has a \"CH\" fare",
+            "match": {
+              "location": "features/step_definitions/baggage_allowance_steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120568
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "guest should be told \"2 x 23kg\"",
+            "match": {
+              "location": "features/step_definitions/baggage_allowance_steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85042
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "baggage-allowance;guest-is-checking-their-baggage-allowance",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Guest is checking their baggage allowance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "guest is a \"Red\" member",
+            "match": {
+              "location": "features/step_definitions/baggage_allowance_steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77941
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "guest has a \"FL\" fare",
+            "match": {
+              "location": "features/step_definitions/baggage_allowance_steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89896
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "guest should be told \"1 x 23kg\"",
+            "match": {
+              "location": "features/step_definitions/baggage_allowance_steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98757
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "baggage-allowance",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Baggage Allowance",
+    "tags": [],
+    "uri": "features/baggage_allowance.feature"
+  },
+  {
+    "description": "  Everybody wants to know when it's Friday",
+    "elements": [
+      {
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Today is or is not Friday",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "today is \"Friday\"",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150983
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ask whether it's Friday yet",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251661
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"TGIF\"",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131681
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Today is or is not Friday",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "today is \"Sunday\"",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100513
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ask whether it's Friday yet",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58212
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74543
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Today is or is not Friday",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "today is \"anything else!\"",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64141
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ask whether it's Friday yet",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46569
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "location": "features/step_definitions/stepdefs.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65011
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "is-it-friday-yet?",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Is it Friday yet?",
+    "tags": [],
+    "uri": "features/is_it_friday_yet.feature"
+  }
+]
